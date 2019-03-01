@@ -16,15 +16,13 @@ import com.singtel.assessment.parent.Fish;
 
 public class AnimalActuator {
 
-	
 	/*
 	 * 
-	 * @param args
-	 * This method is used to calculate count of animals having various skills
-	 * Allowed values are fly, walk, swim, talk
+	 * @param args This method is used to calculate count of animals having various
+	 * skills Allowed values are fly, walk, swim, talk
 	 */
 	public static void main(String args[]) {
-		Animal[] animals = new Animal[] {new Duck(), new Chicken(true), new Chicken(false), new Fish(),
+		Animal[] animals = new Animal[] { new Duck(), new Chicken(true), new Chicken(false), new Fish(),
 				new Parrot(new Dog()), new Shark(), new ClownFish(), new Dolphin() };
 
 		int canWalk = 0, canTalk = 0, canSwim = 0, canFly = 0;
